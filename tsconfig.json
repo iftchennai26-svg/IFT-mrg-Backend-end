@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "outDir": "./dist"
+  },
+  "include": ["server.ts", "models/**/*", "routes/**/*", "lib/**/*", "types.ts"]
+}
